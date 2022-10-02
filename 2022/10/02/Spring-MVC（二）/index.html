@@ -16,17 +16,17 @@
   <meta name="author" content="JianLong Luo">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Spring MVC（二） ​ Spring MVCSpring MVC 将请求参数注入到 POJO 对象的操作称为数据绑定，数据类型转换和格式化就发生在数据类型绑定的过程中，类型转换和格式化是密不可分的两个过程，很多带格式的数据必须明确指定格式之后才可以进行类型转换，例如日期类型和数值类型。 ‍ 1. Spring MVC 提供的自动类型转换 HTTP 协议是一种无类型的协议，我们在服务端接收到">
+    <meta name="description" content="Spring MVC（二）​ Spring MVCSpring MVC 将请求参数注入到 POJO 对象的操作称为数据绑定，数据类型转换和格式化就发生在数据类型绑定的过程中，类型转换和格式化是密不可分的两个过程，很多带格式的数据必须明确指定格式之后才可以进行类型转换，例如日期类型和数值类型。 Spring MVC 提供的自动类型转换HTTP 协议是一种无类型的协议，我们在服务端接收到请求参数等形式">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Spring MVC（二）">
 <meta property="og:url" content="http://example.com/2022/10/02/Spring-MVC%EF%BC%88%E4%BA%8C%EF%BC%89/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Spring MVC（二） ​ Spring MVCSpring MVC 将请求参数注入到 POJO 对象的操作称为数据绑定，数据类型转换和格式化就发生在数据类型绑定的过程中，类型转换和格式化是密不可分的两个过程，很多带格式的数据必须明确指定格式之后才可以进行类型转换，例如日期类型和数值类型。 ‍ 1. Spring MVC 提供的自动类型转换 HTTP 协议是一种无类型的协议，我们在服务端接收到">
+<meta property="og:description" content="Spring MVC（二）​ Spring MVCSpring MVC 将请求参数注入到 POJO 对象的操作称为数据绑定，数据类型转换和格式化就发生在数据类型绑定的过程中，类型转换和格式化是密不可分的两个过程，很多带格式的数据必须明确指定格式之后才可以进行类型转换，例如日期类型和数值类型。 Spring MVC 提供的自动类型转换HTTP 协议是一种无类型的协议，我们在服务端接收到请求参数等形式">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cdn.staticaly.com/gh/Pauluooooo/raphic-bed@master/Spring-MVC.62z1lqmf6eo0.webp">
 <meta property="og:image" content="https://cdn.staticaly.com/gh/Pauluooooo/raphic-bed@master/image.6k1nnapzg9s0.webp">
 <meta property="article:published_time" content="2022-10-02T09:22:00.000Z">
-<meta property="article:modified_time" content="2022-10-02T13:39:13.291Z">
+<meta property="article:modified_time" content="2022-10-02T14:30:34.190Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Spring MVC">
 <meta name="twitter:card" content="summary_large_image">
@@ -276,15 +276,10 @@
             
               <div class="markdown-body">
                 
-                <h1 id="Spring-MVC（二）"><a href="#Spring-MVC（二）" class="headerlink" title="Spring MVC（二）"></a>Spring MVC（二）</h1><hr>
-<p><img src="https://cdn.staticaly.com/gh/Pauluooooo/raphic-bed@master/Spring-MVC.62z1lqmf6eo0.webp" srcset="/img/loading.gif" lazyload>​</p>
+                <h1 id="Spring-MVC（二）"><a href="#Spring-MVC（二）" class="headerlink" title="Spring MVC（二）"></a>Spring MVC（二）</h1><p><img src="https://cdn.staticaly.com/gh/Pauluooooo/raphic-bed@master/Spring-MVC.62z1lqmf6eo0.webp" srcset="/img/loading.gif" lazyload>​</p>
 <h2 id="Spring-MVC"><a href="#Spring-MVC" class="headerlink" title="Spring MVC"></a>Spring MVC</h2><p>Spring MVC 将请求参数注入到 POJO 对象的操作称为数据绑定，数据类型转换和格式化就发生在数据类型绑定的过程中，类型转换和格式化是密不可分的两个过程，很多带格式的数据必须明确指定格式之后才可以进行类型转换，例如日期类型和数值类型。</p>
-<p>‍</p>
-<h3 id="1-Spring-MVC-提供的自动类型转换"><a href="#1-Spring-MVC-提供的自动类型转换" class="headerlink" title="1. Spring MVC 提供的自动类型转换"></a>1. Spring MVC 提供的自动类型转换</h3><hr>
-<p>HTTP 协议是一种无类型的协议，我们在服务端接收到请求参数等形式的数据时，本质上都是字符串类型，而我们在实体类中需要的类型是非常丰富的。对此，Spring MVC 对基本数据类型提供了自动的类型转换。例如：请求参数传入”100“字符串，实体类中需要的是 <code>Integer</code> 类型，Spring MVC 会自动将字符串转换并注入。</p>
-<p>‍</p>
-<h3 id="2-设置类型转换时的格式"><a href="#2-设置类型转换时的格式" class="headerlink" title="2. 设置类型转换时的格式"></a>2. 设置类型转换时的格式</h3><hr>
-<ol>
+<h3 id="Spring-MVC-提供的自动类型转换"><a href="#Spring-MVC-提供的自动类型转换" class="headerlink" title="Spring MVC 提供的自动类型转换"></a>Spring MVC 提供的自动类型转换</h3><p>HTTP 协议是一种无类型的协议，我们在服务端接收到请求参数等形式的数据时，本质上都是字符串类型，而我们在实体类中需要的类型是非常丰富的。对此，Spring MVC 对基本数据类型提供了自动的类型转换。例如：请求参数传入”100“字符串，实体类中需要的是 <code>Integer</code> 类型，Spring MVC 会自动将字符串转换并注入。</p>
+<h3 id="设置类型转换时的格式"><a href="#设置类型转换时的格式" class="headerlink" title="设置类型转换时的格式"></a>设置类型转换时的格式</h3><ol>
 <li><p>实现功能所需要的环境</p>
 <ol>
 <li><p>所需的依赖</p>
@@ -313,9 +308,7 @@
 <li><p>友好的错误页面</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>系统错误信息页面<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">th:errors</span>=<span class="hljs-string">&quot;$&#123;product.productDate&#125;&quot;</span>&gt;</span>错误信息<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">th:errors</span>=<span class="hljs-string">&quot;$&#123;product.productPrice&#125;&quot;</span>&gt;</span>错误信息<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span><br></code></pre></td></tr></table></figure></li>
 </ol>
-<p>‍</p>
-<h3 id="3-自定义类型转换器"><a href="#3-自定义类型转换器" class="headerlink" title="3. 自定义类型转换器"></a>3. 自定义类型转换器</h3><hr>
-<p>当业务需求中需要 Spring MVC 中没有提供自动转换的数据类型时，需要创建自定义的类型转换器来进行转换</p>
+<h3 id="自定义类型转换器"><a href="#自定义类型转换器" class="headerlink" title="自定义类型转换器"></a>自定义类型转换器</h3><p>当业务需求中需要 Spring MVC 中没有提供自动转换的数据类型时，需要创建自定义的类型转换器来进行转换</p>
 <ol>
 <li><p>创建实体类</p>
 <p> 地址类：</p>
@@ -339,13 +332,11 @@
 <p> b. 在 <code>&lt;mvc:annotation-driven /&gt;</code> 标签中注册 <code>formattingConversionService</code> </p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">mvc:annotation-driven</span> <span class="hljs-attr">conversion-service</span>=<span class="hljs-string">&quot;formattingConversionService&quot;</span>/&gt;</span><br>   <br><span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;formattingConversionService&quot;</span> </span><br><span class="hljs-tag">      <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.format.support.FormattingConversionServiceFactoryBean&quot;</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;converters&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">set</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;com.paul.mvc.converter.AddressConverter&quot;</span>/&gt;</span><br>        <span class="hljs-tag">&lt;/<span class="hljs-name">set</span>&gt;</span><br>    <span class="hljs-tag">&lt;/<span class="hljs-name">property</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">bean</span>&gt;</span><br>......<br></code></pre></td></tr></table></figure></li>
 </ol>
-<p>‍</p>
-<h2 id="二、Spring-MVC-数据校验"><a href="#二、Spring-MVC-数据校验" class="headerlink" title="二、Spring MVC 数据校验"></a>二、Spring MVC 数据校验</h2><p>  在 Web 应用三层框架中，表述层负责接收浏览器提交的数据，业务逻辑层负责数据的处理。为了能够正确处理，根据业务的不同可能需要我们在表述层对数据进行检查，将错误数据隔绝在业务逻辑层之外</p>
-<p>  JSR 303 是 Java 为 Bean 数据合法性校验提供的标准框架，它包含在 JavaEE 6.0 标准中，其通过在 Bean 属性上标注类似于 @NotNull、@Max 等标准的注解指定校验规则，并通过标准的验证接口对 Bean 进行验证</p>
-<p>  Spring 4.0 版本已经拥有自己独立的数据校验框架，同时支持 JSR 303 标准的校验框架。可同时调用校验框架完成数据校验工作。在 SpringMVC 中，可直接通过注解驱动<code>&lt;mvc:annotation-driven/&gt;</code>的方式进行数据校验。</p>
-<p>  配置<code>&lt;mvc:annotation-driven/&gt;</code> 后，Spring MVC 会默认装配好一个 <code>LocalValidatorFactoryBean</code> ，通过在处理方法的入参上标注 <code>@Validated</code> 注解即可让 Spring MVC 在完成数据绑定后执行数据校验的工作。</p>
-<h3 id="1-Spring-MVC-数据校验流程"><a href="#1-Spring-MVC-数据校验流程" class="headerlink" title="1. Spring MVC 数据校验流程"></a>1. Spring MVC 数据校验流程</h3><hr>
-<ol>
+<h2 id="二、Spring-MVC-数据校验"><a href="#二、Spring-MVC-数据校验" class="headerlink" title="二、Spring MVC 数据校验"></a>二、Spring MVC 数据校验</h2><p>在 Web 应用三层框架中，表述层负责接收浏览器提交的数据，业务逻辑层负责数据的处理。为了能够正确处理，根据业务的不同可能需要我们在表述层对数据进行检查，将错误数据隔绝在业务逻辑层之外。</p>
+<p>JSR 303 是 Java 为 Bean 数据合法性校验提供的标准框架，它包含在 JavaEE 6.0 标准中，其通过在 Bean 属性上标注类似于 @NotNull、@Max 等标准的注解指定校验规则，并通过标准的验证接口对 Bean 进行验证。</p>
+<p>Spring 4.0 版本已经拥有自己独立的数据校验框架，同时支持 JSR 303 标准的校验框架。可同时调用校验框架完成数据校验工作。在 SpringMVC 中，可直接通过注解驱动 <code>&lt;mvc:annotation-driven/&gt;</code> 的方式进行数据校验。</p>
+<p>配置<code>&lt;mvc:annotation-driven/&gt;</code> 后，Spring MVC 会默认装配好一个 <code>LocalValidatorFactoryBean</code>，通过在处理方法的入参上标注 <code>@Validated</code> 注解即可让 Spring MVC 在完成数据绑定后执行数据校验的工作。</p>
+<h3 id="1-Spring-MVC-数据校验流程"><a href="#1-Spring-MVC-数据校验流程" class="headerlink" title="1. Spring MVC 数据校验流程"></a>1. Spring MVC 数据校验流程</h3><ol>
 <li><p>导入依赖</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-comment">&lt;!-- 数据校验依赖包 --&gt;</span><br>        <span class="hljs-comment">&lt;!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator --&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.hibernate.validator<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>hibernate-validator<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>6.2.0.Final<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span><br>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span><br><br><br></code></pre></td></tr></table></figure>
 
@@ -364,18 +355,13 @@
 <p> b. 配置错误页面</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>系统错误信息页面<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">th:errors</span>=<span class="hljs-string">&quot;$&#123;president.email&#125;&quot;</span>&gt;</span>错误信息<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span><br></code></pre></td></tr></table></figure></li>
 </ol>
-<p>‍</p>
-<p>‍</p>
-<h2 id="三、Spring-MVC-异常映射"><a href="#三、Spring-MVC-异常映射" class="headerlink" title="三、Spring MVC 异常映射"></a>三、Spring MVC 异常映射</h2><hr>
-<p>将异常类型和某个具体的视图关联起来，建立映射关系。</p>
+<h2 id="三、Spring-MVC-异常映射"><a href="#三、Spring-MVC-异常映射" class="headerlink" title="三、Spring MVC 异常映射"></a>三、Spring MVC 异常映射</h2><p>将异常类型和某个具体的视图关联起来，建立映射关系。</p>
 <ul>
 <li>声明式管理异常：在&#x3D;&#x3D;配置文件&#x3D;&#x3D;或者&#x3D;&#x3D;注解&#x3D;&#x3D;中指定异常类型和视图之间的对应关系</li>
 <li>编程式管理异常：手动在可能出错的地方使用 <code>try...catch...</code> 捕获异常，在手动跳转页面</li>
 </ul>
 <p>声明式异常映射的好处：可以让异常控制和核心业务解耦，整个项目代码风格更加统一简洁，便于团队协作</p>
-<p>‍</p>
-<h3 id="1-基于-XML-配置的异常映射"><a href="#1-基于-XML-配置的异常映射" class="headerlink" title="1. 基于 XML 配置的异常映射"></a>1. 基于 XML 配置的异常映射</h3><hr>
-<ol>
+<h3 id="基于-XML-配置的异常映射"><a href="#基于-XML-配置的异常映射" class="headerlink" title="基于 XML 配置的异常映射"></a>基于 XML 配置的异常映射</h3><ol>
 <li><p>准备工作</p>
 <p> pom 依赖</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependencies</span>&gt;</span><br>        <span class="hljs-comment">&lt;!-- SpringMVC --&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-webmvc<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>5.3.10<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span><br>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span><br><br>        <span class="hljs-comment">&lt;!-- ServletAPI --&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>javax.servlet<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>javax.servlet-api<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>3.1.0<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">scope</span>&gt;</span>provided<span class="hljs-tag">&lt;/<span class="hljs-name">scope</span>&gt;</span><br>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span><br><br>        <span class="hljs-comment">&lt;!-- Spring5 和 Thymeleaf 整合包 --&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.thymeleaf<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>thymeleaf-spring5<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span><br>            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>3.0.12.RELEASE<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span><br>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">dependencies</span>&gt;</span><br></code></pre></td></tr></table></figure>
@@ -394,11 +380,8 @@
 <p> 通过 <code>exceptionAttribute</code> 可以指定放入请求域中的属性名称，默认为 <code>exception</code></p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-comment">&lt;!-- 配置异常 --&gt;</span><br>   <span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;exceptionResolver&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.handler.SimpleMappingExceptionResolver&quot;</span>&gt;</span><br>       <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;exceptionMappings&quot;</span>&gt;</span><br>           <span class="hljs-tag">&lt;<span class="hljs-name">props</span>&gt;</span><br>               <span class="hljs-tag">&lt;<span class="hljs-name">prop</span> <span class="hljs-attr">key</span>=<span class="hljs-string">&quot;java.lang.ArithmeticException&quot;</span>&gt;</span>error-math<span class="hljs-tag">&lt;/<span class="hljs-name">prop</span>&gt;</span><br>           <span class="hljs-tag">&lt;/<span class="hljs-name">props</span>&gt;</span><br>       <span class="hljs-tag">&lt;/<span class="hljs-name">property</span>&gt;</span><br>       <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;exceptionAttribute&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;paulException&quot;</span>/&gt;</span><br>   <span class="hljs-tag">&lt;/<span class="hljs-name">bean</span>&gt;</span><br></code></pre></td></tr></table></figure></li>
 </ol>
-<p>‍</p>
-<h3 id="2-异常匹配的规则"><a href="#2-异常匹配的规则" class="headerlink" title="2. 异常匹配的规则"></a>2. 异常匹配的规则</h3><p>如果在配置文件中发现有多个匹配的异常类型，Spring MVC 会采纳范围上最接近的映射关系（尽量精确匹配）</p>
-<p>‍</p>
-<h3 id="3-基于注解的异常映射"><a href="#3-基于注解的异常映射" class="headerlink" title="3. 基于注解的异常映射"></a>3. 基于注解的异常映射</h3><hr>
-<ol>
+<h3 id="异常匹配的规则"><a href="#异常匹配的规则" class="headerlink" title="异常匹配的规则"></a>异常匹配的规则</h3><p>如果在配置文件中发现有多个匹配的异常类型，Spring MVC 会采纳范围上最接近的映射关系（尽量精确匹配）</p>
+<h3 id="基于注解的异常映射"><a href="#基于注解的异常映射" class="headerlink" title="基于注解的异常映射"></a>基于注解的异常映射</h3><ol>
 <li><p>准备工作基本相同，不重复赘述</p>
 </li>
 <li><p>创建一个异常处理的类</p>
@@ -410,13 +393,10 @@
 </ul>
 </li>
 </ol>
-<p>‍</p>
 <ul>
 <li><strong>同时配置了 XML 和注解时,以注解为准</strong></li>
 </ul>
-<p>‍</p>
-<h3 id="区分请求类型给出不同响应"><a href="#区分请求类型给出不同响应" class="headerlink" title="区分请求类型给出不同响应"></a>区分请求类型给出不同响应</h3><hr>
-<p>普通请求和 Ajax 请求两种不同的请求需要的返回类型不同，Ajax 响应的是数据片段，普通请求响应的是视图；所以在异常映射时也有不同，此时需要创建工具类来区分这两种不同的请求。</p>
+<h3 id="区分请求类型给出不同响应"><a href="#区分请求类型给出不同响应" class="headerlink" title="区分请求类型给出不同响应"></a>区分请求类型给出不同响应</h3><p>普通请求和 Ajax 请求两种不同的请求需要的返回类型不同，Ajax 响应的是数据片段，普通请求响应的是视图；所以在异常映射时也有不同，此时需要创建工具类来区分这两种不同的请求。</p>
 <p>判断请求消息头中是否带有 Ajax 独有的特征</p>
 <ul>
 <li>Accept 请求消息头：包含 application&#x2F;json</li>
@@ -426,10 +406,7 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">judge</span><span class="hljs-params">(HttpServletRequest request)</span> &#123;<br><br>    <span class="hljs-type">String</span> <span class="hljs-variable">acceptHeader</span> <span class="hljs-operator">=</span> request.getHeader(<span class="hljs-string">&quot;Accept&quot;</span>);<br>    <span class="hljs-type">String</span> <span class="hljs-variable">xRequestHeader</span> <span class="hljs-operator">=</span> request.getHeader(<span class="hljs-string">&quot;X-Requested-With&quot;</span>);<br><br>    <span class="hljs-keyword">return</span>  (acceptHeader != <span class="hljs-literal">null</span> &amp;&amp; acceptHeader.contains(<span class="hljs-string">&quot;application/json&quot;</span>))<br>            || <br>            (xRequestHeader != <span class="hljs-literal">null</span> &amp;&amp; xRequestHeader.contains(<span class="hljs-string">&quot;XMLHttpRequest&quot;</span>));<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p>然后再异常处理类中调用此工具方法，当结果为 <code>true</code> 时返回数据片段传给 Ajax，当为 <code>false</code> 时返回视图页面</p>
-<p>‍</p>
-<h2 id="四、文件上传"><a href="#四、文件上传" class="headerlink" title="四、文件上传"></a>四、文件上传</h2><hr>
-<h3 id="文件上传举例"><a href="#文件上传举例" class="headerlink" title="文件上传举例"></a>文件上传举例</h3><hr>
-<ol>
+<h2 id="四、文件上传"><a href="#四、文件上传" class="headerlink" title="四、文件上传"></a>四、文件上传</h2><h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><ol>
 <li><p>基础环境跟之前相同</p>
 </li>
 <li><p>前端页面</p>
@@ -458,11 +435,8 @@
 </code></pre>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">/**</span><br><span class="hljs-comment"> * <span class="hljs-doctag">@param</span> userName:接收普通参数举例</span><br><span class="hljs-comment"> * <span class="hljs-doctag">@param</span> picture:使用 MultipartFile 类型接收上传的文件</span><br><span class="hljs-comment"> * <span class="hljs-doctag">@return</span> 返回视图</span><br><span class="hljs-comment"> * */</span><br><span class="hljs-meta">@RequestMapping(value = &quot;/paul/upload&quot;)</span><br><span class="hljs-keyword">public</span> String <span class="hljs-title function_">doUpload</span><span class="hljs-params">(<span class="hljs-meta">@RequestParam(&quot;userName&quot;)</span> String userName, <span class="hljs-meta">@RequestParam(&quot;picture&quot;)</span> MultipartFile picture)</span> &#123;<br>    logger.debug(<span class="hljs-string">&quot;userName = &quot;</span> + userName);<br>    logger.debug(<span class="hljs-string">&quot;原始文件名：&quot;</span> + picture.getOriginalFilename());<br>    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;target&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure></li>
 </ol>
-<p><img src="https://cdn.staticaly.com/gh/Pauluooooo/raphic-bed@master/image.6k1nnapzg9s0.webp" srcset="/img/loading.gif" lazyload>​</p>
-<p>‍</p>
-<h3 id="文件上传转存机制"><a href="#文件上传转存机制" class="headerlink" title="文件上传转存机制"></a>文件上传转存机制</h3><hr>
-<p>客户端浏览器通过输入流将文件捕获，通过网络传输至服务器端，服务器端先会把接收到的文件放入缓冲区，在通过输入流的方式将文件读取到内存中转存。</p>
-<p>‍</p>
+<p><img src="https://cdn.staticaly.com/gh/Pauluooooo/raphic-bed@master/image.6k1nnapzg9s0.webp" srcset="/img/loading.gif" lazyload  />​</p>
+<h3 id="文件上传转存机制"><a href="#文件上传转存机制" class="headerlink" title="文件上传转存机制"></a>文件上传转存机制</h3><p>客户端浏览器通过输入流将文件捕获，通过网络传输至服务器端，服务器端先会把接收到的文件放入缓冲区，在通过输入流的方式将文件读取到内存中转存。</p>
 <p>转存有三种去向：</p>
 <ol>
 <li><p>本地转存</p>
@@ -499,26 +473,17 @@
 <li><p>上传至其他模块</p>
 </li>
 </ol>
-<p>‍</p>
-<h2 id="五、文件下载"><a href="#五、文件下载" class="headerlink" title="五、文件下载"></a>五、文件下载</h2><hr>
-<p>文件下载只需要 Spring MVC 的基础配置，无需其他。</p>
-<p>‍</p>
-<h3 id="初始下载"><a href="#初始下载" class="headerlink" title="初始下载"></a>初始下载</h3><hr>
-<p>浏览器会对不认识的文件尽量在浏览器中打开，但是对于 .zip 压缩包的文件，浏览器会直接调用下载，无需做任何配置</p>
-<p>‍</p>
-<h3 id="小文件下载"><a href="#小文件下载" class="headerlink" title="小文件下载"></a>小文件下载</h3><hr>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-meta">@Controller</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">DownLoadHandler</span> &#123;<br>    <span class="hljs-meta">@Autowired</span><br>    <span class="hljs-keyword">private</span> ServletContext servletContext;<br><br>    <span class="hljs-meta">@RequestMapping(value = &quot;/do/download&quot;)</span><br>    <span class="hljs-keyword">public</span> ResponseEntity&lt;<span class="hljs-type">byte</span>[]&gt; doDown() &#123;<br>        ResponseEntity&lt;<span class="hljs-type">byte</span>[]&gt; responseEntity = <span class="hljs-literal">null</span>;<br>        <span class="hljs-comment">// 将要下载的文件读取到输入流</span><br>        <span class="hljs-type">InputStream</span> <span class="hljs-variable">inputStream</span> <span class="hljs-operator">=</span> servletContext.getResourceAsStream(<span class="hljs-string">&quot;head-picture/a.txt&quot;</span>);<br>        <span class="hljs-comment">// 使用输入流将文件读取到一个字节数组</span><br>        <span class="hljs-keyword">try</span> &#123;<br>            <span class="hljs-type">byte</span>[] buffer = <span class="hljs-keyword">new</span> <span class="hljs-title class_">byte</span>[inputStream.available()];<br>            inputStream.read(buffer);<br>            <span class="hljs-comment">// 封装响应消息头</span><br>            <span class="hljs-type">MultiValueMap</span> <span class="hljs-variable">responseHeaderMap</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">HttpHeaders</span>();<br>            responseHeaderMap.add(<span class="hljs-string">&quot;Content-Disposition&quot;</span>,<span class="hljs-string">&quot;attachment;filename=a.txt&quot;</span>);<br>            responseEntity = <span class="hljs-keyword">new</span> <span class="hljs-title class_">ResponseEntity</span>&lt;&gt;(buffer, responseHeaderMap, HttpStatus.OK);<br>            <span class="hljs-keyword">return</span> responseEntity;<br>        &#125; <span class="hljs-keyword">catch</span> (IOException e) &#123;<br>            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">RuntimeException</span>(e);<br>        &#125;<span class="hljs-keyword">finally</span> &#123;<br>            <span class="hljs-keyword">if</span> (inputStream != <span class="hljs-literal">null</span>) &#123;<br>                <span class="hljs-keyword">try</span> &#123;<br>                    inputStream.close();<br>                &#125; <span class="hljs-keyword">catch</span> (IOException e) &#123;<br>                    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">RuntimeException</span>(e);<br>                &#125;<br>            &#125;<br>        &#125;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="五、文件下载"><a href="#五、文件下载" class="headerlink" title="五、文件下载"></a>五、文件下载</h2><p>文件下载只需要 Spring MVC 的基础配置，无需其他。</p>
+<h3 id="初始下载"><a href="#初始下载" class="headerlink" title="初始下载"></a>初始下载</h3><p>浏览器会对不认识的文件尽量在浏览器中打开，但是对于 .zip 压缩包的文件，浏览器会直接调用下载，无需做任何配置‍</p>
+<h3 id="小文件下载"><a href="#小文件下载" class="headerlink" title="小文件下载"></a>小文件下载</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-meta">@Controller</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">DownLoadHandler</span> &#123;<br>    <span class="hljs-meta">@Autowired</span><br>    <span class="hljs-keyword">private</span> ServletContext servletContext;<br><br>    <span class="hljs-meta">@RequestMapping(value = &quot;/do/download&quot;)</span><br>    <span class="hljs-keyword">public</span> ResponseEntity&lt;<span class="hljs-type">byte</span>[]&gt; doDown() &#123;<br>        ResponseEntity&lt;<span class="hljs-type">byte</span>[]&gt; responseEntity = <span class="hljs-literal">null</span>;<br>        <span class="hljs-comment">// 将要下载的文件读取到输入流</span><br>        <span class="hljs-type">InputStream</span> <span class="hljs-variable">inputStream</span> <span class="hljs-operator">=</span> servletContext.getResourceAsStream(<span class="hljs-string">&quot;head-picture/a.txt&quot;</span>);<br>        <span class="hljs-comment">// 使用输入流将文件读取到一个字节数组</span><br>        <span class="hljs-keyword">try</span> &#123;<br>            <span class="hljs-type">byte</span>[] buffer = <span class="hljs-keyword">new</span> <span class="hljs-title class_">byte</span>[inputStream.available()];<br>            inputStream.read(buffer);<br>            <span class="hljs-comment">// 封装响应消息头</span><br>            <span class="hljs-type">MultiValueMap</span> <span class="hljs-variable">responseHeaderMap</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">HttpHeaders</span>();<br>            responseHeaderMap.add(<span class="hljs-string">&quot;Content-Disposition&quot;</span>,<span class="hljs-string">&quot;attachment;filename=a.txt&quot;</span>);<br>            responseEntity = <span class="hljs-keyword">new</span> <span class="hljs-title class_">ResponseEntity</span>&lt;&gt;(buffer, responseHeaderMap, HttpStatus.OK);<br>            <span class="hljs-keyword">return</span> responseEntity;<br>        &#125; <span class="hljs-keyword">catch</span> (IOException e) &#123;<br>            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">RuntimeException</span>(e);<br>        &#125;<span class="hljs-keyword">finally</span> &#123;<br>            <span class="hljs-keyword">if</span> (inputStream != <span class="hljs-literal">null</span>) &#123;<br>                <span class="hljs-keyword">try</span> &#123;<br>                    inputStream.close();<br>                &#125; <span class="hljs-keyword">catch</span> (IOException e) &#123;<br>                    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">RuntimeException</span>(e);<br>                &#125;<br>            &#125;<br>        &#125;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p>在此实现的是一个简单的下载功能，可以使用在以下场合：</p>
 <ul>
 <li>零星小文件下载</li>
 <li>将系统内部的数据导出为 Excel、PDF 等格式</li>
 </ul>
-<p>‍</p>
-<h2 id="六、其他"><a href="#六、其他" class="headerlink" title="六、其他"></a>六、其他</h2><hr>
-<h3 id="Spring-MVC-配置文件的默认位置"><a href="#Spring-MVC-配置文件的默认位置" class="headerlink" title="Spring MVC 配置文件的默认位置"></a>Spring MVC 配置文件的默认位置</h3><hr>
-<p>Spring MVC 的配置文件可以放到 &#x2F;WEB-INF 目录下</p>
-<p>配置要求</p>
+<h2 id="六、其他"><a href="#六、其他" class="headerlink" title="六、其他"></a>六、其他</h2><h3 id="Spring-MVC-配置文件的默认位置"><a href="#Spring-MVC-配置文件的默认位置" class="headerlink" title="Spring MVC 配置文件的默认位置"></a>Spring MVC 配置文件的默认位置</h3><p>Spring MVC 的配置文件可以放到 &#x2F;WEB-INF 目录下</p>
+<p>配置要求：</p>
 <ul>
 <li><p>配置文件存放目录：&#x2F;WEB-INF 目录</p>
 </li>
@@ -532,9 +497,7 @@
 </ul>
 <p>为什么不建议</p>
 <p>除 web.xml 是 Tomcat 要求放在 WEB-INF 下，其他配置文件习惯上是放在类路径下。</p>
-<p>‍</p>
-<h3 id="请求映射其他方式"><a href="#请求映射其他方式" class="headerlink" title="请求映射其他方式"></a>请求映射其他方式</h3><hr>
-<p>根据请求参数情况映射</p>
+<h3 id="请求映射其他方式"><a href="#请求映射其他方式" class="headerlink" title="请求映射其他方式"></a>请求映射其他方式</h3><p>根据请求参数情况映射</p>
 <p>使用 <code>@RequestMapping</code> 注解的 <code>params</code> 参数实现，表达式语法参见下面的例子：</p>
 <p><code>params</code> 参数只负责检验，不负责将参数获取到请求域</p>
 <table>
@@ -587,9 +550,7 @@
 <li>一个星号：匹配路径中的一层</li>
 <li>两个连续星号：匹配路径中的多层</li>
 </ul>
-<p>‍</p>
-<h3 id="ModeAttribute-注解"><a href="#ModeAttribute-注解" class="headerlink" title="@ModeAttribute 注解"></a>@ModeAttribute 注解</h3><hr>
-<p>handler 类中，选定一个方法标记 <code>@ModelAttribute</code> 注解。</p>
+<h3 id="ModeAttribute-注解"><a href="#ModeAttribute-注解" class="headerlink" title="@ModeAttribute 注解"></a>@ModeAttribute 注解</h3><p>handler 类中，选定一个方法标记 <code>@ModelAttribute</code> 注解。</p>
 <ul>
 <li>效果1：在每个 handler 方法前执行</li>
 <li>效果2：可以将某些数据提前存入请求域</li>
